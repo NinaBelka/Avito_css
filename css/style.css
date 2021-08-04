@@ -470,15 +470,7 @@ hr {
     height: 150px;
   }
 
-  .page-content-single {
-    grid-template-columns: 12fr;
-  }
 
-  .banners {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-  }
   .content {
     margin-right: 0px;
   }
@@ -573,9 +565,10 @@ hr {
   }
 
   .banners {
-    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
   }
-
 
 }
 
@@ -605,4 +598,19 @@ hr {
     max-width: 270px;
   }
 
+  .main-single {
+    align-items: center;
+  }
+
+  .author {
+    margin: auto;
+  }
+
+  .sidebar-single {
+    margin: auto;
+  }
+
+  .banners {
+    flex-direction: column;
+  }
 }
